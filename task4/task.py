@@ -26,7 +26,7 @@ def calculate_conditional_entropy(joint_distribution, marginal_prob_A):
     return round(conditional_entropy, 2)
 
 
-def calculate_mutual_information(h_a, h_b, h_a_b):
+def calculate_mutual_information(h_b, h_a_b):
     """Вычисляет информацию I(A, B) = H(B) - H_A(B)."""
     return round(h_b - h_a_b, 2)
 
